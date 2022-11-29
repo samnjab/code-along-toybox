@@ -1,0 +1,13 @@
+
+.categoryGallery{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    .item{
+        flex-basis:50%;
+        img{
+            max-width:100%;
+        }
+    }
+}
+
