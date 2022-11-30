@@ -18,5 +18,9 @@
 @use "./partials/variables";
 @use "./partials/setup";
 @use "./partials/typography";
-@use "./partials/base-styles";
-@use "./partials/_sections";
+@use "./partials/baseStyles";
+@use "./partials/header";
+@use "./partials/footer";
+@use "./partials/nav";
+@use "./partials/sections";
+@use "./partials/media-queries";

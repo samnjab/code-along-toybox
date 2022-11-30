@@ -1,13 +1,46 @@
+@use "./variables" as *;
 
 .categoryGallery{
     display:flex;
     flex-wrap:wrap;
     width:100%;
-    .item{
-        flex-basis:50%;
-        img{
-            max-width:100%;
+    .items{
+        flex-basis:40%;
+        border-radius:10%;
+        padding:45px;
+        margin:50px 25px 25px;
+        background-color: papayawhip;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img {
+            max-width: 100%;
+            border-radius: 10%
+        }
+        &:hover,
+        &:focus{
+            transform:scale(90%);
+        }
+            
+        }
+        
+        .itemOne{
+            background-color: $quinary;
+        }
+        .itemTwo {
+            background-color: $secondary;
+        }
+        .itemThree {
+            background-color: $tertiary;
+        }
+        .itemFour {
+            background-color: $quaternary;
         }
     }
-}
+
+
+
+
 
